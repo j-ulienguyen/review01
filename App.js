@@ -20,8 +20,6 @@ function App(){
 		<View style={styles.app}>
 			<Text>Review Package 01</Text>
 			{/* Place your comps here */}
-
-			<Bot />
 		</View>
 	)
 }
