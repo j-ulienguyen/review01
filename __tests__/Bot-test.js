@@ -4,16 +4,11 @@
 
 import 'react-native';
 import React from 'react';
-import Main from '../comps/Main';
+import Bot from '../comps/Bot';
 
 // Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';
 
 it('renders correctly', () => {
-  renderer.create(<Main />);
+  renderer.create(<Bot />);
 });
-  
-it('Main renders correctly', () => {
-  renderer.create(<Main />);
-});
-
