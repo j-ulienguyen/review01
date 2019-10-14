@@ -14,7 +14,4 @@ it('renders correctly', () => {
   renderer.create(<Main />);
 });
   
-it('Main renders correctly', () => {
-  renderer.create(<Main />);
-});
 
