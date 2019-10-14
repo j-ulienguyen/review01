@@ -9,6 +9,7 @@
 import React from 'react';
 import {View,Text} from 'react-native';
 import styles from './styles/AppStyles';
+import Bot from './comps/Bot';
 
 // Import comps below
 
@@ -19,6 +20,8 @@ function App(){
 		<View style={styles.app}>
 			<Text>Review Package 01</Text>
 			{/* Place your comps here */}
+
+			<Bot />
 		</View>
 	)
 }
