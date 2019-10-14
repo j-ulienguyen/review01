@@ -1,14 +1,15 @@
+
 /**
  * @format
  */
 
 import 'react-native';
 import React from 'react';
-import App from '../App';
+import Main from '../comps/Main';
 
 // Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';
 
-it.skip('renders correctly', () => {
-  renderer.create(<App />);
+it('Main renders correctly', () => {
+  renderer.create(<Main />);
 });
