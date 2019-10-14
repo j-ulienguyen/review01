@@ -1,20 +1,14 @@
-
 /**
  * @format
  */
 
 import 'react-native';
 import React from 'react';
-import Main from '../comps/Main';
+import Mid from '../comps/Mid';
 
 // Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';
 
-it('renders correctly', () => {
-  renderer.create(<Main />);
+it('Mid renders correctly', () => {
+  renderer.create(<Mid />);
 });
-  
-it('Main renders correctly', () => {
-  renderer.create(<Main />);
-});
-
