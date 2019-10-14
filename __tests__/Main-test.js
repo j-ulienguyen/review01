@@ -10,6 +10,6 @@ import Main from '../comps/Main';
 // Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';
 
-it.skip('Main renders correctly', () => {
+it('Main renders correctly', () => {
   renderer.create(<Main />);
 });
