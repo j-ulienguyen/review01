@@ -17,8 +17,6 @@ function App(){
 	// UI
 	return (
 		<View style={styles.app}>
-			{/* Place your comps here */}
-   			<Main />
 			{/* <Text>Review Package 01</Text> */}
 			<Main/>
 		</View>
